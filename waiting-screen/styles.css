@@ -1,0 +1,159 @@
+html {
+  /* Sets up rem font sizing to be power of 10 */
+  /* 1rem = 10px;
+    /* 1.2rem = 12px;
+    /* 1.4rem = 14px;
+    /* https://www.sitepoint.com/understanding-and-using-rem-units-in-css/ */
+  font-size: 62.5%; /* 62.5% of 16px = 10px */
+}
+
+body {
+  margin: 0;
+  font-family: "ITC Avant Garde Gothic", "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #dd2c56;
+  color: white;
+  font-weight: 400;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  font-size: 1.72rem;
+}
+
+h1 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 10.4rem;
+  line-height: 12rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 6.7rem;
+  line-height: 8rem;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 4.7rem;
+  line-height: 6rem;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 2.7rem;
+  line-height: 6rem;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.72rem;
+  line-height: 1.9rem;
+  margin: 0;
+}
+
+span {
+  font-size: 1.72rem;
+  line-height: 1.9rem;
+  margin: 0;
+}
+
+a {
+  margin: 0;
+  color: white;
+  text-decoration: none;
+}
+
+a[disabled]:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input {
+  font-size: 1.72rem;
+  color: black;
+  font-family: "ITC Avant Garde Gothic", "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.view {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  align-items: center;
+  text-align: center;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100px;
+  z-index: 100;
+  overflow: hidden;
+  background-color: #dd2c56;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 25px;
+  overflow: hidden;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 0 1;
+}
+
+.view-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 40px;
+  overflow-x: hidden;
+  overflow-y: visible;
+  z-index: 1;
+  align-items: center;
+  text-align: center;
+}
+
+.header-padding {
+  width: 100%;
+  min-height: 180px;
+  z-index: 0;
+  pointer-events: none;
+  background-color: transparent;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,14 @@
+{
+  "theme": {
+      "config": {
+        "element": {
+          "unit": "rem",
+          "ratio": 1.6
+        },
+        "text": {
+          "unit": "rem",
+          "ratio": 1.6
+        }
+      }
+  }
+}

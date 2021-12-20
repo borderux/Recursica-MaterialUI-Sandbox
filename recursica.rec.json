@@ -1,0 +1,9 @@
+{
+    "name": "Recursica Material UI SANDBOX",
+    "imports": [
+      "./src/theme/theme.rec.json",
+      "./src/theme/colors.rec.json",
+      "./src/theme/typography.rec.json",
+      "./src/components/Button/button.rec.json"
+    ]
+  }
