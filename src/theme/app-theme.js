@@ -129,29 +129,6 @@
         },
         {
           "props": {
-            "variant": "contained"
-          },
-          "style": {
-            "&:disabled": {
-              "color": "#bdbdbd",
-              "boxShadow": "none",
-              "backgroundColor": "#e0e0e0"
-            },
-            "&:active": {
-              "boxShadow": "0px 5px 5px -3px rgb(0 0 0 / 20%), 0px 8px 10px 1px rgb(0 0 0 / 14%), 0px 3px 14px 2px rgb(0 0 0 / 12%)"
-            },
-            "&:hover": {
-              "background": "#1565c0",
-              "boxShadow": "0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%)"
-            },
-            "padding": "6px 16px",
-            "color": "#fff",
-            "backgroundColor": "#1976D2",
-            "boxShadow": "0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%)"
-          }
-        },
-        {
-          "props": {
             "variant": "outlined"
           },
           "style": {
@@ -184,6 +161,29 @@
           "style": {
             "fontSize": "0.9375rem",
             "padding": "8px 22px"
+          }
+        },
+        {
+          "props": {
+            "variant": "contained"
+          },
+          "style": {
+            "&:disabled": {
+              "color": "#bdbdbd",
+              "boxShadow": "none",
+              "backgroundColor": "#e0e0e0"
+            },
+            "&:active": {
+              "boxShadow": "0px 5px 5px -3px rgb(0 0 0 / 20%), 0px 8px 10px 1px rgb(0 0 0 / 14%), 0px 3px 14px 2px rgb(0 0 0 / 12%)"
+            },
+            "&:hover": {
+              "background": "#1565c0",
+              "boxShadow": "0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%)"
+            },
+            "padding": "6px 16px",
+            "color": "#fff",
+            "boxShadow": "0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%)",
+            "backgroundColor": "rgba(236, 31, 31, 1.00)"
           }
         }
       ]
